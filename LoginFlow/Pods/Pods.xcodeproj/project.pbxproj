@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2815981CBED1D1F278339B58537E17BC /* AEOTPTextFieldImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0CD81AC0BC075ED44597BE1F27D53 /* AEOTPTextFieldImplementation.swift */; };
+		8182558B7149C188620D3EEE41776F8B /* AEOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A80DD3379BB477B6179F1CA89D15F /* AEOTPTextField.swift */; };
+		94E84A828994BA822534F73D4B0B7201 /* AEOTPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B71090D6B955F7EFC4D314072E08A80 /* AEOTPTextField-dummy.m */; };
+		AF3102CC937C7B435349B1DF07EBE6FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B08ADFE690257086948A521EC2DB5F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B195F67CF1D7B9B3D8FE1631674E7EEF /* AEOTPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA987155DCDE6CEFA1A04DF16124472C /* AEOTPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B56EFD1945E95283F453DD9BFA3E668D /* Pods-LoginFlow-LoginFlowUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1531B0A262FC0630B08C9DFBAB964FD /* Pods-LoginFlow-LoginFlowUITests-dummy.m */; };
+		C4274C5FCB4C2051D3F1F087C6CE645D /* Pods-LoginFlowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EC3E2F4DBE1EF7AA11DF988942A19D /* Pods-LoginFlowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C650E619451EABF5FC30146041828050 /* Pods-LoginFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D37EE78D076ACB17147A2829A2EECB4 /* Pods-LoginFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB6BFE0D3BC27B4E7D3E987E30324DB /* Pods-LoginFlow-LoginFlowUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649981458ED2EDC251041D802DFACEEC /* Pods-LoginFlow-LoginFlowUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57A461B7803314CE38DA18D1C467992 /* Pods-LoginFlowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18416A6A05545889A581BD5DE28F3114 /* Pods-LoginFlowTests-dummy.m */; };
+		DE1FF6E414A73211EF026B9136771C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E536E21D5240AE85CD446B5EC49AE3D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0CB99C800964E4EE366E2493A8F48B5 /* Pods-LoginFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE94D63172417BF631E4284ECEF6499 /* Pods-LoginFlow-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88BF1BD2D7FE157EC697C198EA4329A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFD29057F227C8618D5798428D931DA;
+			remoteInfo = "Pods-LoginFlow";
+		};
+		9CD4BFF00E95BF40EAF41458278AC99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843B748963255A8FEFEA42D08A2E7996;
+			remoteInfo = AEOTPTextField;
+		};
+		CB039AF7B3306A44A853D501A700ED0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843B748963255A8FEFEA42D08A2E7996;
+			remoteInfo = AEOTPTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18416A6A05545889A581BD5DE28F3114 /* Pods-LoginFlowTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginFlowTests-dummy.m"; sourceTree = "<group>"; };
+		1932BB57ACAF88DAA14FDE53FC836BAB /* AEOTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.release.xcconfig; sourceTree = "<group>"; };
+		1A03EE4AA7C95C8616518DDF958008A1 /* AEOTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-prefix.pch"; sourceTree = "<group>"; };
+		1BA747150CC0339A4AC75676890FC497 /* Pods-LoginFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFlow.release.xcconfig"; sourceTree = "<group>"; };
+		35332E1D3C9B295902BB64095382E502 /* Pods-LoginFlow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginFlow-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37A68FC6A3226102F429C2DA491C516A /* Pods-LoginFlowTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFlowTests-Info.plist"; sourceTree = "<group>"; };
+		40AB972625BF04C49720335F0006EE6F /* Pods-LoginFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginFlow.modulemap"; sourceTree = "<group>"; };
+		4D98FCB15E669478E433C505C9F8F5F8 /* Pods-LoginFlowTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginFlowTests"; path = Pods_LoginFlowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFC2B107BD7491A02BDC2070F541A76 /* AEOTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEOTPTextField-Info.plist"; sourceTree = "<group>"; };
+		609E35C844996FD8AD29A64C419D0045 /* Pods-LoginFlow-LoginFlowUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginFlow-LoginFlowUITests.modulemap"; sourceTree = "<group>"; };
+		649981458ED2EDC251041D802DFACEEC /* Pods-LoginFlow-LoginFlowUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginFlow-LoginFlowUITests-umbrella.h"; sourceTree = "<group>"; };
+		6AE94D63172417BF631E4284ECEF6499 /* Pods-LoginFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginFlow-dummy.m"; sourceTree = "<group>"; };
+		6DBC995FEB9B9A4B32EA3A9AC94D7D76 /* Pods-LoginFlow-LoginFlowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFlow-LoginFlowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE97D747DA0131B0272E69E92860A1C /* Pods-LoginFlowTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginFlowTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E6A911CEFCC733CF00118E0EF782061 /* Pods-LoginFlow-LoginFlowUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFlow-LoginFlowUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83759E330FCAD2B61EE79E0D93A1F233 /* Pods-LoginFlow-LoginFlowUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginFlow-LoginFlowUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83F895D724D640C2B9CCEE97C4002C76 /* Pods-LoginFlow-LoginFlowUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFlow-LoginFlowUITests-Info.plist"; sourceTree = "<group>"; };
+		877C59CAFD7F1EA28DB30D7D91C3D8D5 /* Pods-LoginFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFlowTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AC0CD81AC0BC075ED44597BE1F27D53 /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementation.swift; path = AEOTPTextField/Source/AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
+		8D37EE78D076ACB17147A2829A2EECB4 /* Pods-LoginFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginFlow-umbrella.h"; sourceTree = "<group>"; };
+		90EC3E2F4DBE1EF7AA11DF988942A19D /* Pods-LoginFlowTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginFlowTests-umbrella.h"; sourceTree = "<group>"; };
+		99EE3C60410A2801B107DD2E5A6476C7 /* Pods-LoginFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B71090D6B955F7EFC4D314072E08A80 /* AEOTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEOTPTextField-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1531B0A262FC0630B08C9DFBAB964FD /* Pods-LoginFlow-LoginFlowUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginFlow-LoginFlowUITests-dummy.m"; sourceTree = "<group>"; };
+		A1B6F5691514F2B8189A9B5605543FF9 /* Pods-LoginFlow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginFlow-frameworks.sh"; sourceTree = "<group>"; };
+		AF6896B60E4B6F396FED84328B547712 /* Pods-LoginFlowTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFlowTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5BB48B0EB4E8AD42412CAF32CE4573A /* Pods-LoginFlow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginFlow"; path = Pods_LoginFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70A7E06B9DF139F7F5F35F61B03D10C /* AEOTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEOTPTextField.modulemap; sourceTree = "<group>"; };
+		BA987155DCDE6CEFA1A04DF16124472C /* AEOTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-umbrella.h"; sourceTree = "<group>"; };
+		BEEC7D55884FA3A12D30DA5B6243F50B /* AEOTPTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.debug.xcconfig; sourceTree = "<group>"; };
+		C76232123025B9529190AED1EA29C9A2 /* Pods-LoginFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		CE24D37C7DF5B6CBCAB7E0C5C672BB2A /* Pods-LoginFlow-LoginFlowUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginFlow-LoginFlowUITests"; path = Pods_LoginFlow_LoginFlowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54A80DD3379BB477B6179F1CA89D15F /* AEOTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextField.swift; path = AEOTPTextField/Source/AEOTPTextField.swift; sourceTree = "<group>"; };
+		D824C09CF7AD6C38F75DCDDF07C2149D /* Pods-LoginFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFlow-Info.plist"; sourceTree = "<group>"; };
+		D8E4B033C90C538494019D6A2D16349C /* Pods-LoginFlow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFlow-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD1D2647FD202FF6863F2EBF9D6BB657 /* Pods-LoginFlow-LoginFlowUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginFlow-LoginFlowUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEOTPTextField; path = AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E5D750ED0692DAE34D303F828BEBF1 /* Pods-LoginFlowTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginFlowTests.modulemap"; sourceTree = "<group>"; };
+		F62DFE17711B4D722F4C7F02D42C5049 /* Pods-LoginFlow-LoginFlowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFlow-LoginFlowUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D302B5A4C913FDB00A854F75C138C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536E21D5240AE85CD446B5EC49AE3D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245EF6987581265D0E13DAB6E34200C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3102CC937C7B435349B1DF07EBE6FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A31B1F965ED2347CD3CD1E2C70132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08ADFE690257086948A521EC2DB5F65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D946045AD888189AB07E09642DDFE5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1FF6E414A73211EF026B9136771C9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF0DB4E22D0AF1C4D58CA62BCD470CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55EAB85AA8F1ED5F81B136DA118F77A2 /* AEOTPTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		11675CF669F25CE98FB4150CF7D1A540 /* Pods-LoginFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5D750ED0692DAE34D303F828BEBF1 /* Pods-LoginFlowTests.modulemap */,
+				6FE97D747DA0131B0272E69E92860A1C /* Pods-LoginFlowTests-acknowledgements.markdown */,
+				AF6896B60E4B6F396FED84328B547712 /* Pods-LoginFlowTests-acknowledgements.plist */,
+				18416A6A05545889A581BD5DE28F3114 /* Pods-LoginFlowTests-dummy.m */,
+				37A68FC6A3226102F429C2DA491C516A /* Pods-LoginFlowTests-Info.plist */,
+				90EC3E2F4DBE1EF7AA11DF988942A19D /* Pods-LoginFlowTests-umbrella.h */,
+				99EE3C60410A2801B107DD2E5A6476C7 /* Pods-LoginFlowTests.debug.xcconfig */,
+				877C59CAFD7F1EA28DB30D7D91C3D8D5 /* Pods-LoginFlowTests.release.xcconfig */,
+			);
+			name = "Pods-LoginFlowTests";
+			path = "Target Support Files/Pods-LoginFlowTests";
+			sourceTree = "<group>";
+		};
+		11F1F93DC5EB618A22AD161AD37655A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */,
+				B5BB48B0EB4E8AD42412CAF32CE4573A /* Pods-LoginFlow */,
+				CE24D37C7DF5B6CBCAB7E0C5C672BB2A /* Pods-LoginFlow-LoginFlowUITests */,
+				4D98FCB15E669478E433C505C9F8F5F8 /* Pods-LoginFlowTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E388FFB3C09F4AA10ADB7D91B9EDA3 /* Pods-LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				40AB972625BF04C49720335F0006EE6F /* Pods-LoginFlow.modulemap */,
+				35332E1D3C9B295902BB64095382E502 /* Pods-LoginFlow-acknowledgements.markdown */,
+				D8E4B033C90C538494019D6A2D16349C /* Pods-LoginFlow-acknowledgements.plist */,
+				6AE94D63172417BF631E4284ECEF6499 /* Pods-LoginFlow-dummy.m */,
+				A1B6F5691514F2B8189A9B5605543FF9 /* Pods-LoginFlow-frameworks.sh */,
+				D824C09CF7AD6C38F75DCDDF07C2149D /* Pods-LoginFlow-Info.plist */,
+				8D37EE78D076ACB17147A2829A2EECB4 /* Pods-LoginFlow-umbrella.h */,
+				C76232123025B9529190AED1EA29C9A2 /* Pods-LoginFlow.debug.xcconfig */,
+				1BA747150CC0339A4AC75676890FC497 /* Pods-LoginFlow.release.xcconfig */,
+			);
+			name = "Pods-LoginFlow";
+			path = "Target Support Files/Pods-LoginFlow";
+			sourceTree = "<group>";
+		};
+		55EAB85AA8F1ED5F81B136DA118F77A2 /* AEOTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D54A80DD3379BB477B6179F1CA89D15F /* AEOTPTextField.swift */,
+				8AC0CD81AC0BC075ED44597BE1F27D53 /* AEOTPTextFieldImplementation.swift */,
+				7F66D5A5E4D9C40FA2D955D3966B852F /* Support Files */,
+			);
+			name = AEOTPTextField;
+			path = AEOTPTextField;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F66D5A5E4D9C40FA2D955D3966B852F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70A7E06B9DF139F7F5F35F61B03D10C /* AEOTPTextField.modulemap */,
+				9B71090D6B955F7EFC4D314072E08A80 /* AEOTPTextField-dummy.m */,
+				5CFC2B107BD7491A02BDC2070F541A76 /* AEOTPTextField-Info.plist */,
+				1A03EE4AA7C95C8616518DDF958008A1 /* AEOTPTextField-prefix.pch */,
+				BA987155DCDE6CEFA1A04DF16124472C /* AEOTPTextField-umbrella.h */,
+				BEEC7D55884FA3A12D30DA5B6243F50B /* AEOTPTextField.debug.xcconfig */,
+				1932BB57ACAF88DAA14FDE53FC836BAB /* AEOTPTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEOTPTextField";
+			sourceTree = "<group>";
+		};
+		BF454626CF290C0F9572AE773BB5C118 /* Pods-LoginFlow-LoginFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				609E35C844996FD8AD29A64C419D0045 /* Pods-LoginFlow-LoginFlowUITests.modulemap */,
+				83759E330FCAD2B61EE79E0D93A1F233 /* Pods-LoginFlow-LoginFlowUITests-acknowledgements.markdown */,
+				7E6A911CEFCC733CF00118E0EF782061 /* Pods-LoginFlow-LoginFlowUITests-acknowledgements.plist */,
+				A1531B0A262FC0630B08C9DFBAB964FD /* Pods-LoginFlow-LoginFlowUITests-dummy.m */,
+				DD1D2647FD202FF6863F2EBF9D6BB657 /* Pods-LoginFlow-LoginFlowUITests-frameworks.sh */,
+				83F895D724D640C2B9CCEE97C4002C76 /* Pods-LoginFlow-LoginFlowUITests-Info.plist */,
+				649981458ED2EDC251041D802DFACEEC /* Pods-LoginFlow-LoginFlowUITests-umbrella.h */,
+				6DBC995FEB9B9A4B32EA3A9AC94D7D76 /* Pods-LoginFlow-LoginFlowUITests.debug.xcconfig */,
+				F62DFE17711B4D722F4C7F02D42C5049 /* Pods-LoginFlow-LoginFlowUITests.release.xcconfig */,
+			);
+			name = "Pods-LoginFlow-LoginFlowUITests";
+			path = "Target Support Files/Pods-LoginFlow-LoginFlowUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0AF0DB4E22D0AF1C4D58CA62BCD470CE /* Pods */,
+				11F1F93DC5EB618A22AD161AD37655A6 /* Products */,
+				E388D3974E7A4C2EA7B32580DC16A616 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E388D3974E7A4C2EA7B32580DC16A616 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E388FFB3C09F4AA10ADB7D91B9EDA3 /* Pods-LoginFlow */,
+				BF454626CF290C0F9572AE773BB5C118 /* Pods-LoginFlow-LoginFlowUITests */,
+				11675CF669F25CE98FB4150CF7D1A540 /* Pods-LoginFlowTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A48DFBDAB41104D30447DDE4A0475F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6BFE0D3BC27B4E7D3E987E30324DB /* Pods-LoginFlow-LoginFlowUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E28F70D6734EA107CF0D2EF1BDC557B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B195F67CF1D7B9B3D8FE1631674E7EEF /* AEOTPTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24AB57EA9A688A394E408F1745F49BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4274C5FCB4C2051D3F1F087C6CE645D /* Pods-LoginFlowTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE64EFE2ABAECA483324F419851654FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C650E619451EABF5FC30146041828050 /* Pods-LoginFlow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8086843EF18C65DF1AA7DAABEB907 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */;
+			buildPhases = (
+				6E28F70D6734EA107CF0D2EF1BDC557B /* Headers */,
+				7FD17FCC34E9887630109F95F240B65F /* Sources */,
+				0D302B5A4C913FDB00A854F75C138C31 /* Frameworks */,
+				FE110709C66FFB32605AA62F50777CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEOTPTextField;
+			productName = AEOTPTextField;
+			productReference = E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BFD29057F227C8618D5798428D931DA /* Pods-LoginFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBDBA852FFA71ACA690460E0E06F6B4 /* Build configuration list for PBXNativeTarget "Pods-LoginFlow" */;
+			buildPhases = (
+				CE64EFE2ABAECA483324F419851654FA /* Headers */,
+				10D689E09DCEC0F2DD0443950E6D910B /* Sources */,
+				435A31B1F965ED2347CD3CD1E2C70132 /* Frameworks */,
+				9BCA5FAAF929CEA04507E91BA49188AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDCCC3BC4C0E0D8601023D31C9C4DB7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginFlow";
+			productName = Pods_LoginFlow;
+			productReference = B5BB48B0EB4E8AD42412CAF32CE4573A /* Pods-LoginFlow */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2620C2F46B8CDFE8228CC6DA2B83190 /* Pods-LoginFlow-LoginFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA2382B5FC1869D1DC3A6EBFD5A99A2 /* Build configuration list for PBXNativeTarget "Pods-LoginFlow-LoginFlowUITests" */;
+			buildPhases = (
+				4A48DFBDAB41104D30447DDE4A0475F1 /* Headers */,
+				C60B583DF2EB25CBFE797446C53B06AE /* Sources */,
+				D946045AD888189AB07E09642DDFE5AD /* Frameworks */,
+				E7B7CF4FC1D9BD538AFA8F19EE8F6140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78887A90B3810EC4963670C39C6880E /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginFlow-LoginFlowUITests";
+			productName = Pods_LoginFlow_LoginFlowUITests;
+			productReference = CE24D37C7DF5B6CBCAB7E0C5C672BB2A /* Pods-LoginFlow-LoginFlowUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBD3A829278B563B831A47055EC66624 /* Pods-LoginFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AAFC762632412C34B4D99D37B7B0BB /* Build configuration list for PBXNativeTarget "Pods-LoginFlowTests" */;
+			buildPhases = (
+				C24AB57EA9A688A394E408F1745F49BD /* Headers */,
+				F766E9DEF773F3791B9BB3F3CD4B660B /* Sources */,
+				245EF6987581265D0E13DAB6E34200C8 /* Frameworks */,
+				63269C65BB6E2B078693631608CD6021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFC4562A5EABB7009108AFA79B098D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginFlowTests";
+			productName = Pods_LoginFlowTests;
+			productReference = 4D98FCB15E669478E433C505C9F8F5F8 /* Pods-LoginFlowTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 11F1F93DC5EB618A22AD161AD37655A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */,
+				8BFD29057F227C8618D5798428D931DA /* Pods-LoginFlow */,
+				A2620C2F46B8CDFE8228CC6DA2B83190 /* Pods-LoginFlow-LoginFlowUITests */,
+				EBD3A829278B563B831A47055EC66624 /* Pods-LoginFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63269C65BB6E2B078693631608CD6021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCA5FAAF929CEA04507E91BA49188AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B7CF4FC1D9BD538AFA8F19EE8F6140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE110709C66FFB32605AA62F50777CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D689E09DCEC0F2DD0443950E6D910B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CB99C800964E4EE366E2493A8F48B5 /* Pods-LoginFlow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD17FCC34E9887630109F95F240B65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8182558B7149C188620D3EEE41776F8B /* AEOTPTextField.swift in Sources */,
+				94E84A828994BA822534F73D4B0B7201 /* AEOTPTextField-dummy.m in Sources */,
+				2815981CBED1D1F278339B58537E17BC /* AEOTPTextFieldImplementation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60B583DF2EB25CBFE797446C53B06AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56EFD1945E95283F453DD9BFA3E668D /* Pods-LoginFlow-LoginFlowUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F766E9DEF773F3791B9BB3F3CD4B660B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57A461B7803314CE38DA18D1C467992 /* Pods-LoginFlowTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BFC4562A5EABB7009108AFA79B098D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LoginFlow";
+			target = 8BFD29057F227C8618D5798428D931DA /* Pods-LoginFlow */;
+			targetProxy = 88BF1BD2D7FE157EC697C198EA4329A2 /* PBXContainerItemProxy */;
+		};
+		C78887A90B3810EC4963670C39C6880E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEOTPTextField;
+			target = 843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */;
+			targetProxy = 9CD4BFF00E95BF40EAF41458278AC99E /* PBXContainerItemProxy */;
+		};
+		CFDCCC3BC4C0E0D8601023D31C9C4DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEOTPTextField;
+			target = 843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */;
+			targetProxy = CB039AF7B3306A44A853D501A700ED0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1371E00226002CE71BA3A8DFBDE0ACB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76232123025B9529190AED1EA29C9A2 /* Pods-LoginFlow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginFlow/Pods-LoginFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginFlow/Pods-LoginFlow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BF5D7AA038A12455310293D6DC0CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA747150CC0339A4AC75676890FC497 /* Pods-LoginFlow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginFlow/Pods-LoginFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginFlow/Pods-LoginFlow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		47D29192FBCEF72211209E6C82A0500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877C59CAFD7F1EA28DB30D7D91C3D8D5 /* Pods-LoginFlowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginFlowTests/Pods-LoginFlowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginFlowTests/Pods-LoginFlowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63BCCE43EBEC459A71242FC2223ADCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EE3C60410A2801B107DD2E5A6476C7 /* Pods-LoginFlowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginFlowTests/Pods-LoginFlowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginFlowTests/Pods-LoginFlowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		704F026C1517CBB00A5BFF7D77DB9C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEC7D55884FA3A12D30DA5B6243F50B /* AEOTPTextField.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEOTPTextField/AEOTPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField.modulemap";
+				PRODUCT_MODULE_NAME = AEOTPTextField;
+				PRODUCT_NAME = AEOTPTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C9A7BB63E20A149FB35D518844DA8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62DFE17711B4D722F4C7F02D42C5049 /* Pods-LoginFlow-LoginFlowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginFlow-LoginFlowUITests/Pods-LoginFlow-LoginFlowUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginFlow-LoginFlowUITests/Pods-LoginFlow-LoginFlowUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9731F5F1B6A23B717395494088231AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBC995FEB9B9A4B32EA3A9AC94D7D76 /* Pods-LoginFlow-LoginFlowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginFlow-LoginFlowUITests/Pods-LoginFlow-LoginFlowUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginFlow-LoginFlowUITests/Pods-LoginFlow-LoginFlowUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E90F4A098290AFAB620BA19D73ECA43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1932BB57ACAF88DAA14FDE53FC836BAB /* AEOTPTextField.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEOTPTextField/AEOTPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField.modulemap";
+				PRODUCT_MODULE_NAME = AEOTPTextField;
+				PRODUCT_NAME = AEOTPTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBDBA852FFA71ACA690460E0E06F6B4 /* Build configuration list for PBXNativeTarget "Pods-LoginFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1371E00226002CE71BA3A8DFBDE0ACB4 /* Debug */,
+				2BF5D7AA038A12455310293D6DC0CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA2382B5FC1869D1DC3A6EBFD5A99A2 /* Build configuration list for PBXNativeTarget "Pods-LoginFlow-LoginFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9731F5F1B6A23B717395494088231AA /* Debug */,
+				8C9A7BB63E20A149FB35D518844DA8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8086843EF18C65DF1AA7DAABEB907 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704F026C1517CBB00A5BFF7D77DB9C6A /* Debug */,
+				E90F4A098290AFAB620BA19D73ECA43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AAFC762632412C34B4D99D37B7B0BB /* Build configuration list for PBXNativeTarget "Pods-LoginFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BCCE43EBEC459A71242FC2223ADCCA /* Debug */,
+				47D29192FBCEF72211209E6C82A0500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
