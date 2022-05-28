@@ -1,16 +1,24 @@
 PODS:
   - AEOTPTextField (1.0.9)
+  - Alamofire (5.4.4)
+  - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
   - AEOTPTextField
+  - Alamofire
+  - Toast-Swift (~> 5.0.1)
 
 SPEC REPOS:
   trunk:
     - AEOTPTextField
+    - Alamofire
+    - Toast-Swift
 
 SPEC CHECKSUMS:
   AEOTPTextField: e3c2f7d0f43bc52e6cf48dd6bf0ee1ba542438dd
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 914c81de2f530da027607b092b3bbb259a2f18bb
+PODFILE CHECKSUM: 2707c8e11794b3eb5468c0e384343028e538a3b9
 
 COCOAPODS: 1.11.2

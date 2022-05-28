@@ -8,6 +8,8 @@ target 'LoginFlow' do
   # Pods for LoginFlow
 
   pod 'AEOTPTextField'
+  pod 'Alamofire'
+  pod 'Toast-Swift', '~> 5.0.1'
   target 'LoginFlowTests' do
     inherit! :search_paths
     # Pods for testing

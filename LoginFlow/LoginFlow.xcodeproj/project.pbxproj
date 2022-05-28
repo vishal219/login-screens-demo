@@ -19,6 +19,8 @@
 		AC4697BF2841EF9A0008FC93 /* LoginFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4697BE2841EF9A0008FC93 /* LoginFlowUITestsLaunchTests.swift */; };
 		ACE924442842405100B27C4A /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE924432842405100B27C4A /* PasswordViewController.swift */; };
 		ACE924472842494000B27C4A /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE924462842494000B27C4A /* RequestManager.swift */; };
+		ACE9244928424D9C00B27C4A /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9244828424D9C00B27C4A /* OTPViewController.swift */; };
+		ACE9244B2842640A00B27C4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9244A2842640A00B27C4A /* Constants.swift */; };
 		ACEFB5B428423628008E9C97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEFB5B328423628008E9C97 /* Extensions.swift */; };
 		C8C2E1D20C8D55BDC7B7D0FC /* Pods_LoginFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FC39F63DF7199476F36F58 /* Pods_LoginFlow.framework */; };
 		FF89BE5CD79254D88B9FA071 /* Pods_LoginFlow_LoginFlowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB7CAAE596313D589697E58 /* Pods_LoginFlow_LoginFlowUITests.framework */; };
@@ -62,6 +64,8 @@
 		AC4697BE2841EF9A0008FC93 /* LoginFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ACE924432842405100B27C4A /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		ACE924462842494000B27C4A /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		ACE9244828424D9C00B27C4A /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		ACE9244A2842640A00B27C4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ACEFB5B328423628008E9C97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AD24707F03EF66F31E809AD7 /* Pods-LoginFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFlowTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginFlowTests/Pods-LoginFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B63B45BB475AF1190889329D /* Pods-LoginFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFlowTests.release.xcconfig"; path = "Target Support Files/Pods-LoginFlowTests/Pods-LoginFlowTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				AC46979F2841EF990008FC93 /* ViewController.swift */,
 				ACE924432842405100B27C4A /* PasswordViewController.swift */,
 				AC4697A12841EF990008FC93 /* Main.storyboard */,
+				ACE9244828424D9C00B27C4A /* OTPViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				ACE924462842494000B27C4A /* RequestManager.swift */,
+				ACE9244A2842640A00B27C4A /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -189,7 +195,6 @@
 				AD24707F03EF66F31E809AD7 /* Pods-LoginFlowTests.debug.xcconfig */,
 				B63B45BB475AF1190889329D /* Pods-LoginFlowTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -437,7 +442,9 @@
 				AC46979C2841EF990008FC93 /* AppDelegate.swift in Sources */,
 				ACE924472842494000B27C4A /* RequestManager.swift in Sources */,
 				AC46979E2841EF990008FC93 /* SceneDelegate.swift in Sources */,
+				ACE9244928424D9C00B27C4A /* OTPViewController.swift in Sources */,
 				ACEFB5B428423628008E9C97 /* Extensions.swift in Sources */,
+				ACE9244B2842640A00B27C4A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
