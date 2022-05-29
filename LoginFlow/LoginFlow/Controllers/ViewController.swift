@@ -9,7 +9,7 @@ import UIKit
 import Toast_Swift
 
 class ViewController: UIViewController {
-
+    
     //Outlets:
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var googleLoginButton: UIButton!
@@ -35,22 +35,28 @@ class ViewController: UIViewController {
         if let text = emailOrMobile.text,!text.isEmpty{
             if text.isValidEmail || text.isValidPhone{
                 self.view.makeToastActivity(.center)
-            RequestManager.shared.CheckUser(text, completion: {loggedIn in
-                self.view.hideToastActivity()
-                if loggedIn{
-                    print("User verified")
-                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let vc = storyboard.instantiateViewController(withIdentifier: "PasswordViewController") as! PasswordViewController
-                    let navigation = UINavigationController(rootViewController: vc)
-                    navigation.navigationBar.isHidden = true
-                    navigation.modalPresentationStyle = .fullScreen
-                    self.present(navigation, animated: true, completion: nil)
-                }
-                else{
-                    print("Not logged in")
-                    self.view.makeToast("User not found")
-                }
-            })
+                RequestManager.shared.CheckUser(text, completion: {(loggedIn,error) in
+                    self.view.hideToastActivity()
+                    if loggedIn{
+                        print("User verified")
+                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                        let vc = storyboard.instantiateViewController(withIdentifier: "PasswordViewController") as! PasswordViewController
+                        vc.email = text
+                        let navigation = UINavigationController(rootViewController: vc)
+                        navigation.navigationBar.isHidden = true
+                        navigation.modalPresentationStyle = .fullScreen
+                        self.present(navigation, animated: true, completion: nil)
+                    }
+                    else{
+                        if error != nil{
+                            self.view.makeToast("Can't login user. Try Again.")
+                        }
+                        else{
+                            print("Not logged in")
+                            self.view.makeToast("User not found")
+                        }
+                    }
+                })
             }
             else{
                 self.view.makeToast("Invalid credentials")

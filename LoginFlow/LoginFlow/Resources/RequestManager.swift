@@ -28,8 +28,11 @@ class RequestManager {
 
         }
     }
-    
-    func CheckUser(_ email: String,completion: @escaping (Bool) -> ()){
+    // MARK: - PUBLIC
+    ///Check if user exists or not
+    /// - Parameters
+    ///         - email: string representing email or phone number
+    func CheckUser(_ email: String,completion: @escaping (Bool,Error?) -> ()){
         let data = ["username": email]
         if let url = URL.init(string: check_login_url){
             self.postData(fromRequestType: .post, url: url, data: data, completion: {(sucess,error) in
@@ -38,27 +41,33 @@ class RequestManager {
                     if let status = response?["status"]{
                         if let code = status as? Int{
                             if code == 1{
-                                completion(true)
+                                completion(true,nil)
                             }
                             else{
-                                completion(false)
+                                completion(false,nil)
                             }
                         }
                     }
                 }
                 else if error != nil{
                     print(error)
-                    completion(false)
+                    completion(false,error)
                 }
             })
         }
         
     }
-    
-    func loginUserWithPassword(_ email: String,_ password: String,completion: @escaping (Bool) -> ()){
+    // MARK: - PUBLIC
+    ///Login User with username & password
+    /// - Parameters
+    ///         - email: string representing email or phone number
+    ///         - password: string representing password
+    func loginUserWithPassword(_ email: String,_ password: String,completion: @escaping (Bool,Error?) -> ()){
         let data = [
             "username" : email,
-            "password" : password
+            "password" : password,
+            "device_type" : "android",
+            "device_token" : "jlhyfhaoiffj"
         ]
         if let url = URL.init(string: login_password_url){
             self.postData(fromRequestType: .post, url: url, data: data, completion: {(sucess,error) in
@@ -66,15 +75,55 @@ class RequestManager {
             })
         }
     }
-    
-    func loginUserWithOTP(_ email: String,_ otp: Int,completion: @escaping (Bool) -> ()){
+    // MARK: - PUBLIC
+    ///login user with username & otp
+    /// - Parameters
+    ///         - email: string representing email or phone number
+    ///         - otp: string representing OTP sent to user
+    func loginUserWithOTP(_ email: String,_ otp: Int,completion: @escaping (Bool,Error?) -> ()){
         let data = [
             "username" : email,
-            "otp" : otp
+            "device_type" : "android",
+            "device_token" : "jlhyfhaoiffj",
+            "otp" : 4526
         ] as [String : Any]
-        if let url = URL.init(string: login_password_url){
+        if let url = URL.init(string: login_OTP_url){
             self.postData(fromRequestType: .post, url: url, data: data, completion: {(sucess,error) in
                 
+            })
+        }
+    }
+    // MARK: - PUBLIC
+    ///Generate OTP
+    /// - Parameters
+    ///         - email: string representing email or phone number
+    func generateOTP(_ email: String,completion: @escaping (Bool,String?,Error?) -> ()){
+        let data = [
+            "username" : email,
+            "device_type" : "android",
+            "device_token" : "jlhyfhaoiffj"
+        ] as [String : Any]
+        if let url = URL.init(string: generate_OTP_url){
+            self.postData(fromRequestType: .post, url: url, data: data, completion: {(sucess,error) in
+                if sucess != nil{
+                    let response = sucess as? [String:Any]
+                    if let status = response?["status"]{
+                        if let code = status as? Int{
+                            //force unwrap as value expected always
+                            let message = response?["message"] as! String
+                            if code == 1{
+                                completion(true,message,nil)
+                            }
+                            else{
+                                completion(false,message,nil)
+                            }
+                        }
+                    }
+                }
+                else if error != nil{
+                    print(error)
+                    completion(false,nil,error)
+                }
             })
         }
     }
