@@ -20,6 +20,8 @@ let generate_OTP_url = "http://emapp.brandmydream.com/evobee/demo/login_with_otp
 //Login with OTP
 let login_OTP_url = "http://emapp.brandmydream.com/evobee/demo/login_with_otp"
 
+let appDelegate = UIApplication.shared.delegate as! AppDelegate
+
 struct UI{
     //for centre screen capsule buttons
     static let cornerRadiusButton1 = 30.0

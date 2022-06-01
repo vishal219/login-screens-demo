@@ -42,10 +42,7 @@ class ViewController: UIViewController {
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)
                         let vc = storyboard.instantiateViewController(withIdentifier: "PasswordViewController") as! PasswordViewController
                         vc.email = text
-                        let navigation = UINavigationController(rootViewController: vc)
-                        navigation.navigationBar.isHidden = true
-                        navigation.modalPresentationStyle = .fullScreen
-                        self.present(navigation, animated: true, completion: nil)
+                        self.navigationController?.pushViewController(vc, animated: true)
                     }
                     else{
                         if error != nil{

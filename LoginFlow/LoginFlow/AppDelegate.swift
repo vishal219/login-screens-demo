@@ -12,8 +12,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
+    var dicloginDetail: NSDictionary? = nil
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if UserDefaults.standard.object(forKey: "LoginDetail") != nil {
+            
+            let data = UserDefaults.standard.object(forKey: "LoginDetail") as! Data
+            
+            self.dicloginDetail = NSKeyedUnarchiver.unarchiveObject(with: data) as? NSDictionary
+
+        }
         return true
     }
 

@@ -17,6 +17,7 @@
 		AC4697B32841EF9A0008FC93 /* LoginFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4697B22841EF9A0008FC93 /* LoginFlowTests.swift */; };
 		AC4697BD2841EF9A0008FC93 /* LoginFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4697BC2841EF9A0008FC93 /* LoginFlowUITests.swift */; };
 		AC4697BF2841EF9A0008FC93 /* LoginFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4697BE2841EF9A0008FC93 /* LoginFlowUITestsLaunchTests.swift */; };
+		AC46E27F28475538001FED58 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46E27E28475538001FED58 /* DashboardViewController.swift */; };
 		ACE924442842405100B27C4A /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE924432842405100B27C4A /* PasswordViewController.swift */; };
 		ACE924472842494000B27C4A /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE924462842494000B27C4A /* RequestManager.swift */; };
 		ACE9244928424D9C00B27C4A /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9244828424D9C00B27C4A /* OTPViewController.swift */; };
@@ -62,6 +63,7 @@
 		AC4697B82841EF9A0008FC93 /* LoginFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4697BC2841EF9A0008FC93 /* LoginFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowUITests.swift; sourceTree = "<group>"; };
 		AC4697BE2841EF9A0008FC93 /* LoginFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC46E27E28475538001FED58 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		ACE924432842405100B27C4A /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		ACE924462842494000B27C4A /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		ACE9244828424D9C00B27C4A /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				ACE924432842405100B27C4A /* PasswordViewController.swift */,
 				AC4697A12841EF990008FC93 /* Main.storyboard */,
 				ACE9244828424D9C00B27C4A /* OTPViewController.swift */,
+				AC46E27E28475538001FED58 /* DashboardViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4697A02841EF990008FC93 /* ViewController.swift in Sources */,
+				AC46E27F28475538001FED58 /* DashboardViewController.swift in Sources */,
 				ACE924442842405100B27C4A /* PasswordViewController.swift in Sources */,
 				AC46979C2841EF990008FC93 /* AppDelegate.swift in Sources */,
 				ACE924472842494000B27C4A /* RequestManager.swift in Sources */,
